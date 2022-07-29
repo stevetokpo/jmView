@@ -1,0 +1,29 @@
+> Page d'accueil
+    > catégorie
+    > domaine
+    > recherche
+    > voir une offre d'emploi
+    > voir un micro service
+    > postuler à une offre d'emploi
+    > commander un micro service
+> Inscription
+> Connexion
+> Dashboard
+    > statistique
+    > ajouter micro service
+    > voir un micro service
+    > liste des micro service
+    > modifier un micro service
+    > supprimer un micro service
+    > liste des commandes
+    > voir une commandes
+    > ajouter une offre d'emploi
+    > voir une offre d'emploi
+    > liste des offres d'emploi
+    > modifier une offre d'emploi
+    > supprimer une offre d'emploi
+    > liste des candidature
+    > voir une candidature
+    > liste des messages
+    > reponse au messages
+    > paramètre

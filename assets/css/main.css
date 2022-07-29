@@ -1,0 +1,105 @@
+.menulist {
+    color: black !important;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.menulist:hover {
+    color: #FB6340 !important;
+}
+
+#currentli {
+    color: #FB6340  !important;
+}
+
+main {
+    padding-top: 20px;
+}
+
+.card-widget {
+    border: 0;
+    position: relative
+}
+
+.widget-user .widget-user-header {
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    height: 135px;
+    padding: 1rem;
+    text-align: center
+}
+
+.widget-user .widget-user-username {
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .2)
+}
+
+.widget-user .widget-user-desc {
+    margin-top: 0
+}
+
+.widget-user .widget-user-image {
+    left: 50%;
+    margin-left: -45px;
+    position: absolute;
+    top: 80px
+}
+
+.widget-user .widget-user-image>img {
+    border: 3px solid #fff;
+    height: auto;
+    width: 90px
+}
+
+.widget-user .card-footer {
+    padding-top: 50px
+}
+
+.widget-user-2 .widget-user-header {
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    padding: 1rem
+}
+
+.widget-user-2 .widget-user-username {
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    margin-top: 5px
+}
+
+.widget-user-2 .widget-user-desc {
+    margin-top: 0
+}
+
+.widget-user-2 .widget-user-desc,
+.widget-user-2 .widget-user-username {
+    margin-left: 75px
+}
+
+.widget-user-2 .widget-user-image>img {
+    float: left;
+    height: auto;
+    width: 65px
+}
+
+.img-circle {
+    border-radius: 50%
+}
+
+.elevation-2 {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23) !important
+}
+
+#imgFeature {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover !important;
+}
+datalist {
+    display: none;
+}

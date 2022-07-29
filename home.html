@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceuil JM</title>
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/plugins/material-design-iconic-font/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="./assets/css/addons.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <header class="row" style="padding: 0px 0px !important;box-shadow: 0 3px 10px -2px #ccc, 0 1px 2px 0 rgb(0 0 0 / 10%), 0 0 0 0 transparent;">
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <img src="./assets/img/logo2.png" alt="Logo de JM" style="width: 150px;">
+            </div>
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <form class="m-2">
+                    <div class="input-group">
+                        <input type="search" class="form-control" placeholder="Que voulez-vous?">
+                        <button class="btn btn-dark" type="button">
+                            <i class="mdi mdi-magnify"></i>
+                        </button>
+                    </div>
+                    <div>
+                        <small>
+                            <strong class="text-primary">
+                                Populaire:
+                            </strong>
+                            <span class="m-2">
+                                Design
+                            </span>
+                            <span class="m-2">
+                                Audiovisuel
+                            </span>
+                            <span class="m-2">
+                                Bureatique
+                            </span>
+                            <span class="m-2">
+                                Informatique
+                            </span>
+                        </small>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <p>
+                    <a href="" class="btn btn-dark m-1 btn-sm">
+                        <i class="mdi mdi-account-plus"></i>
+                        S'inscrire
+                    </a>
+                    <a href="" class="btn btn-outline-dark m-1 btn-sm">
+                        <i class="mdi mdi-account-key"></i>
+                        Se connecter
+                    </a>
+                </p>
+            </div>
+            <div class="col-12">
+                <nav class="navbar navbar-expand-md">
+                    <div class="container-fluid">
+                        <div>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="mdi mdi-menu"></i>
+                                <!-- <span class="navbar-toggler-icon text-dark"></span> -->
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav justify-content-between text-center">
+                                <li class="nav-item mb-3">
+                                    <a href="./home.html" class="nav-link menulist" id="currentli" aria-current="page">
+                                        Acceuil
+                                    </a>
+                                </li>
+                                <li class="nav-item mb-3 dropdown">
+                                    <a class="nav-link menulist dropdown-toggle" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Micro-services
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="./categorie.html" class="dropdown-item">
+                                                Design
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="./categorie.html" class="dropdown-item">
+                                                Audiovisuel
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="./categorie.html" class="dropdown-item">
+                                                Marketing
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="./allcategorie.html" class="dropdown-item">
+                                                <div class="btn btn-dark btn-sm w-100 text-center">
+                                                    Voir tout
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item mb-3 dropdown">
+                                    <a class="nav-link menulist dropdown-toggle" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Offre d'emploi
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="./domaine.html" class="dropdown-item">
+                                                Achats
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="./domaine.html" class="dropdown-item">
+                                                Administration
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="./domaine.html" class="dropdown-item">
+                                                Armée
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="./domaine.html" class="dropdown-item">
+                                                Arts & design
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="./domaine.html" class="dropdown-item">
+                                                Enseignement
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="./domaine.html" class="dropdown-item">
+                                                Entrepreunariat
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="./domaine.html" class="dropdown-item">
+                                                Développement personnel
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="./alldomaine.html" class="dropdown-item">
+                                                <div class="btn btn-dark btn-sm w-100 text-center">
+                                                    Voir tout
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item mb-3">
+                                    <a href="./searchms.html" class="nav-link menulist">
+                                        Recherche micro-services
+                                    </a>
+                                </li>
+                                <li class="nav-item mb-3">
+                                    <a href="./searchoe.html" class="nav-link menulist">
+                                        Recherche offre d'emploi
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="breadcrumb-option mt-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="breadcrumb__links">
+                            <span>
+                                <i class="mdi mdi-home"></i>
+                                Acceuil
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main class="container">
+            <div class="row">
+                <div class="col-md-8 mb-3">
+                    <div id="carouselExampleCaptions" class="carousel slide mb-4" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#offreEmploi1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#offreEmploi2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#offreEmploi3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="bg-dark">
+                                    <img src="../../assets/img/carousel.svg" class="d-block w-100" alt="..." style="height: 350px;">
+                                </div>
+                                <div class="carousel-caption d-md-block">
+                                    <h5>
+                                        Recrutement dans le domaine de l'informatique
+                                    </h5>
+                                    <p>
+                                        Description de l'offre d'emploi et des conditions d'admission.... <a href=""
+                                            class="text-primary">Voir plus</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="bg-dark">
+                                    <img src="../../assets/img/carousel.svg" class="d-block w-100" alt="..."
+                                        style="height: 350px;">
+                                </div>
+                                <div class="carousel-caption d-md-block">
+                                    <h5>
+                                        Postuler maintenant pour le poste de développeur
+                                    </h5>
+                                    <p>
+                                        Description de l'offre d'emploi et des conditions d'admission....<a href=""
+                                            class="text-primary">Voir plus</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="bg-dark">
+                                    <img src="../../assets/img/carousel.svg" class="d-block w-100" alt="..."
+                                        style="height: 350px;">
+                                </div>
+                                <div class="carousel-caption d-md-block">
+                                    <h5>
+                                        Offre emploi dans l'Enseignement
+                                    </h5>
+                                    <p>
+                                        Description de l'offre d'emploi et des conditions d'admission....<a href=""
+                                            class="text-primary">Voir plus</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">
+                                Précédent
+                            </span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">
+                                Suivant
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card card-widget widget-user" style="box-shadow: 3px 3px 6px silver, -3px -3px 6px silver;">
+                        <div class="widget-user-header" style="background: url('../../assets/img/bg.png');" id="imgFeature">
+                            <h3 class="widget-user-username text-white">Alexander Pierce</h3>
+                            <h5 class="widget-user-desc text-white">
+                                Promoteur
+                            </h5>
+                        </div>
+                        <div class="widget-user-image">
+                            <img class="img-circle elevation-2" src="./assets/img/user.png" alt="User Avatar">
+                        </div>
+                        <div class="card-footer">
+                            <div class="row">
+                                <div class="col-sm-4 border-right">
+                                    <div class="description-block">
+                                        <h5 class="description-header">
+                                            20
+                                        </h5>
+                                        <span class="description-text">
+                                            Micro-services
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 border-right">
+                                    <div class="description-block">
+                                        <h5 class="description-header">10</h5>
+                                        <span class="description-text">
+                                            Offres d'emploi postés
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 border-right">
+                                    <div class="description-block">
+                                        <div class="description-text btn btn-outline-dark btn-sm">
+                                            Voir plus
+                                            <i class="mdi mdi-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex justify-content-between">
+                        <hr width="80px">
+                        <small class="m-1">
+                            Récemment postés
+                        </small>
+                        <hr width="80px">
+                    </div>
+                </div>
+                <div class="col-md-8 mb-3">
+                    <div class="row justify-content-center">
+                        <div class="col-md-5 mb-3">
+                            <div class="card">
+                                <img src="./media/coverPicsMS/1.jpg" class="card-img-top" alt="...">
+                                <div class="d-flex justify-content-between p-2">
+                                    <small class="badge bg-warning">
+                                        Rédaction
+                                    </small>
+                                    <small>
+                                        12:32 07/07/2022
+                                    </small>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Rédaction de CV
+                                    </h5>
+                                    <p class="card-text">
+                                        Je propose ce microServices à tout le monde
+                                    </p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between">
+                                    <span class="text-warning">
+                                        <strong>
+                                            25 000 FCFA
+                                        </strong>
+                                    </span>
+                                    <a href="./microServices.html" class="btn btn-outline-warning">
+                                        Voir plus <i class="mdi mdi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 mb-3">
+                            <div class="card">
+                                <img src="./media/coverPicsMS/2.jpg" class="card-img-top" alt="...">
+                                <div class="d-flex justify-content-between p-2">
+                                    <small class="badge bg-warning">
+                                        Rédaction
+                                    </small>
+                                    <small>
+                                        12:32 07/07/2022
+                                    </small>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Rédaction de CV
+                                    </h5>
+                                    <p class="card-text">
+                                        Je propose ce microServices à tout le monde
+                                    </p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between">
+                                    <span class="text-warning">
+                                        <strong>
+                                            25 000 FCFA
+                                        </strong>
+                                    </span>
+                                    <a href="./microServices.html" class="btn btn-outline-warning">
+                                        Voir plus <i class="mdi mdi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 mb-3">
+                            <div class="card p-2">
+                                <img src="./media/coverPicsMS/3.jpg" class="card-img-top" alt="...">
+                                <div class="d-flex justify-content-between p-2">
+                                    <small class="badge bg-warning">
+                                        Rédaction
+                                    </small>
+                                    <small>
+                                        12:32 07/07/2022
+                                    </small>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Rédaction de CV
+                                    </h5>
+                                    <p class="card-text">
+                                        Je propose ce microServices à tout le monde
+                                    </p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between">
+                                    <span class="text-warning">
+                                        <strong>
+                                            25 000 FCFA
+                                        </strong>
+                                    </span>
+                                    <a href="./microServices.html" class="btn btn-outline-warning">
+                                        Voir plus <i class="mdi mdi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 mb-3">
+                            <div class="card">
+                                <img src="./media/coverPicsMS/4.jpg" class="card-img-top" alt="...">
+                                <div class="d-flex justify-content-between p-2">
+                                    <small class="badge bg-warning">
+                                        Rédaction
+                                    </small>
+                                    <small>
+                                        12:32 07/07/2022
+                                    </small>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Rédaction de CV
+                                    </h5>
+                                    <p class="card-text">
+                                        Je propose ce microServices à tout le monde
+                                    </p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between">
+                                    <span class="text-warning">
+                                        <strong>
+                                            25 000 FCFA
+                                        </strong>
+                                    </span>
+                                    <a href="./microServices.html" class="btn btn-outline-warning">
+                                        Voir plus <i class="mdi mdi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 mb-3">
+                            <div class="card">
+                                <img src="./media/coverPicsMS/5.jpg" class="card-img-top" alt="...">
+                                <div class="d-flex justify-content-between p-2">
+                                    <small class="badge bg-warning">
+                                        Rédaction
+                                    </small>
+                                    <small>
+                                        12:32 07/07/2022
+                                    </small>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Rédaction de CV
+                                    </h5>
+                                    <p class="card-text">
+                                        Je propose ce microServices à tout le monde
+                                    </p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between">
+                                    <span class="text-warning">
+                                        <strong>
+                                            25 000 FCFA
+                                        </strong>
+                                    </span>
+                                    <a href="./microServices.html" class="btn btn-outline-warning">
+                                        Voir plus <i class="mdi mdi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 mb-3">
+                            <div class="card">
+                                <img src="./media/coverPicsMS/11.jpg" class="card-img-top" alt="...">
+                                <div class="d-flex justify-content-between p-2">
+                                    <small class="badge bg-warning">
+                                        Rédaction
+                                    </small>
+                                    <small>
+                                        12:32 07/07/2022
+                                    </small>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Rédaction de CV
+                                    </h5>
+                                    <p class="card-text">
+                                        Je propose ce microServices à tout le monde
+                                    </p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between">
+                                    <span class="text-warning">
+                                        <strong>
+                                            25 000 FCFA
+                                        </strong>
+                                    </span>
+                                    <a href="./microServices.html" class="btn btn-outline-warning">
+                                        Voir plus <i class="mdi mdi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-center mb-2">
+                            <a href="./allcategorie.html" class="btn btn-dark">
+                                Voir plus de micro-services
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="row justify-content-center">
+                        <div class="col-md-12 mb-2">
+                            <div class="card" style="box-shadow: 0 7px 25px -5px #ccc, 0 1px 5px 0 rgb(0 0 0 / 10%), 0 0 0 0 transparent;">
+                                <div class="d-flex justify-content-between p-2">
+                                    <small class="badge bg-warning">
+                                        Achats
+                                    </small>
+                                    <small>
+                                        12:32 07/07/2022
+                                    </small>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Acheteur
+                                    </h5>
+                                    <p class="card-text">
+                                        Devenez acheteur pour la société de MMMMMMM.
+                                    </p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between">
+                                    <span class="text-warning">
+                                        <strong>
+                                            Abomey Calavi
+                                        </strong>
+                                    </span>
+                                    <a href="./offreEmploi.html" class="btn btn-outline-warning">
+                                        Voir plus <i class="mdi mdi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-2">
+                            <div class="card" style="box-shadow: 0 7px 25px -5px #ccc, 0 1px 5px 0 rgb(0 0 0 / 10%), 0 0 0 0 transparent;">
+                                <div class="d-flex justify-content-between p-2">
+                                    <small class="badge bg-warning">
+                                        Achats
+                                    </small>
+                                    <small>
+                                        12:32 07/07/2022
+                                    </small>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Acheteur
+                                    </h5>
+                                    <p class="card-text">
+                                        Devenez acheteur pour la société de MMMMMMM.
+                                    </p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between">
+                                    <span class="text-warning">
+                                        <strong>
+                                            Abomey Calavi
+                                        </strong>
+                                    </span>
+                                    <a href="./offreEmploi.html" class="btn btn-outline-warning">
+                                        Voir plus <i class="mdi mdi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-2">
+                            <div class="card" style="box-shadow: 0 7px 25px -5px #ccc, 0 1px 5px 0 rgb(0 0 0 / 10%), 0 0 0 0 transparent;">
+                                <div class="d-flex justify-content-between p-2">
+                                    <small class="badge bg-warning">
+                                        Informatique
+                                    </small>
+                                    <small>
+                                        12:32 07/07/2022
+                                    </small>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Tech / Data
+                                    </h5>
+                                    <p class="card-text">
+                                        Devenez développeur pour la société de MMMMMMM.
+                                    </p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between">
+                                    <span class="text-warning">
+                                        <strong>
+                                            Abomey Calavi
+                                        </strong>
+                                    </span>
+                                    <a href="./offreEmploi.html" class="btn btn-outline-warning">
+                                        Voir plus <i class="mdi mdi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-2">
+                            <div class="card" style="box-shadow: 0 7px 25px -5px #ccc, 0 1px 5px 0 rgb(0 0 0 / 10%), 0 0 0 0 transparent;">
+                                <div class="d-flex justify-content-between p-2">
+                                    <small class="badge bg-warning">
+                                        Achats
+                                    </small>
+                                    <small>
+                                        12:32 07/07/2022
+                                    </small>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Acheteur
+                                    </h5>
+                                    <p class="card-text">
+                                        Devenez acheteur pour la société de MMMMMMM.
+                                    </p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between">
+                                    <span class="text-warning">
+                                        <strong>
+                                            Abomey Calavi
+                                        </strong>
+                                    </span>
+                                    <a href="./offreEmploi.html" class="btn btn-outline-warning">
+                                        Voir plus <i class="mdi mdi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-2">
+                            <div class="card" style="box-shadow: 0 7px 25px -5px #ccc, 0 1px 5px 0 rgb(0 0 0 / 10%), 0 0 0 0 transparent;">
+                                <div class="d-flex justify-content-between p-2">
+                                    <small class="badge bg-warning">
+                                        Achats
+                                    </small>
+                                    <small>
+                                        12:32 07/07/2022
+                                    </small>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Acheteur
+                                    </h5>
+                                    <p class="card-text">
+                                        Devenez acheteur pour la société de MMMMMMM.
+                                    </p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between">
+                                    <span class="text-warning">
+                                        <strong>
+                                            Abomey Calavi
+                                        </strong>
+                                    </span>
+                                    <a href="./offreEmploi.html" class="btn btn-outline-warning">
+                                        Voir plus <i class="mdi mdi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-center mb-2">
+                            <a href="./alldomaine.html" class="btn btn-dark">
+                                Voir plus d'offre d'emploi
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 justify-content-center align-items-center">
+                    <img src="./assets/img/logo2.png" alt="" class="img-fluid" width="100px">
+                    <p class="text-white">
+                        Trouvez tout ce que vous chercher à propos d'un emploi ou d'une micro services
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
