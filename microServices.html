@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <meta name="theme-color" content="#FB6340">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,10 +18,10 @@
                 <img src="./assets/img/logo2.png" alt="Logo de JM" style="width: 150px;">
             </div>
             <div class="col-md-4 d-flex justify-content-center align-items-center">
-                <form class="m-2">
+                <form class="m-2" method="get" action="./searchms.html">
                     <div class="input-group">
-                        <input type="search" class="form-control" placeholder="Que voulez-vous?">
-                        <button class="btn btn-dark" type="button">
+                        <input type="search" name="keyword" class="form-control" placeholder="Que voulez-vous?">
+                        <button class="btn btn-dark" type="submit">
                             <i class="mdi mdi-magnify"></i>
                         </button>
                     </div>
@@ -47,11 +48,11 @@
             </div>
             <div class="col-md-4 d-flex justify-content-center align-items-center">
                 <p>
-                    <a href="" class="btn btn-dark m-1 btn-sm">
+                    <a href="./signup.html" class="btn btn-dark m-1 btn-sm">
                         <i class="mdi mdi-account-plus"></i>
                         S'inscrire
                     </a>
-                    <a href="" class="btn btn-outline-dark m-1 btn-sm">
+                    <a href="./login.html" class="btn btn-outline-dark m-1 btn-sm">
                         <i class="mdi mdi-account-key"></i>
                         Se connecter
                     </a>
@@ -70,13 +71,13 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav justify-content-between text-center">
                                 <li class="nav-item mb-3">
-                                    <a href="./home.html" class="nav-link menulist" id="currentli" aria-current="page">
+                                    <a href="./home.html" class="nav-link menulist">
                                         Acceuil
                                     </a>
                                 </li>
                                 <li class="nav-item mb-3 dropdown">
                                     <a class="nav-link menulist dropdown-toggle" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        data-bs-toggle="dropdown" aria-expanded="false" id="currentli" aria-current="page">
                                         Micro-services
                                     </a>
                                     <ul class="dropdown-menu">
